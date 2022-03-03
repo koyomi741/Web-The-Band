@@ -123,12 +123,12 @@ html{
     /* height:; */
     position: relative;
     margin-top: 46px;
-    padding-top: 50%;   /*50 % của chính nó*/
-    background-image: url("/asset/img/chicago.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
+#slider .bg{
+    width: 100%;
+    top:0
+}
 #slider .text-content {
     position: absolute;
     bottom: 48px;
